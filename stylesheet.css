@@ -1,0 +1,203 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ヘッダ */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.container {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.header-logo {
+  width: 124px;
+  margin: 20px 0px;
+}
+
+.login {
+  float: right;
+  display: block;
+  line-height: 65px;
+  padding: 0px 25px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+/* トップ */
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.top-container {
+  text-align: center;
+}
+
+.top h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.7;
+}
+
+.top p {
+  color: white;
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 4px;
+  display: inline-block;
+  color: white;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.top span {
+  margin-right: 5px;
+}
+
+.regist {
+  background-color: #239b76;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+/* レッスン一覧 */
+.lessons {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lessons .container {
+  padding-top: 80px;
+}
+
+.lessons h2 {
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.lesson-item {
+  width: 25%;
+  float: left;
+  margin-top: 50px;
+}
+
+.lesson-item .icon {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.lesson-item .name {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.lesson-item .explanation {
+  font-size: 13px;
+  width: 80%;
+  color: #b3aeb5;
+  text-align: center;
+  margin: 0px auto;
+}
+
+/* メッセージ */
+.message {
+  text-align: center;
+}
+
+.message h2 {
+  margin-top: 80px;
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.message h3 {
+  color: #5f5d60;
+}
+
+.develop {
+  display: inline-block;
+  padding: 15px 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-color: #5dca88;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.develop:hover {
+  opacity: 1;
+}
+
+.develop:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* フッター */
+footer {
+  border-top: 1px solid #eee;
+}
+
+footer .container {
+  padding: 30px 0px;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
